@@ -1,4 +1,4 @@
-<h1 align="center">🐢 4EKUSHKA | Rookie Coder </h1>
+<h1 align="center">🐢 4EKUSHKA | Rookie </h1>
 
 <img width="3124" height="1335" alt="image" src="https://github.com/user-attachments/assets/9920ae66-2093-49a6-9091-3fda688635e8" />
 
