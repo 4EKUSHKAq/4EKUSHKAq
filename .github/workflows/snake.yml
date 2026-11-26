@@ -1,0 +1,38 @@
+name: 🐍 Generate snake animation
+
+on:
+  # каждую ночь — чтобы змейка не отставала от графика коммитов
+  schedule:
+    - cron: "30 0 * * *"
+  # можно запустить вручную из вкладки Actions
+  workflow_dispatch:
+  # и при каждом пуше в main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Генерируем SVG-змейку из графика контрибуций
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Пушим результат в ветку output
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
