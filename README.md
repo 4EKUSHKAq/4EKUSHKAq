@@ -1,5 +1,9 @@
 <h1 align="center">🐢 4EKUSHKA | Rookie </h1>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,js,nodejs,bash,git,github,vscode,windows,linux,ps&theme=dark&perline=10" alt="Rust, JavaScript, Node.js, Bash, Git, GitHub, VS Code, Windows, Linux, Photoshop" />
+</p>
+
 <img width="3124" height="1335" alt="image" src="https://github.com/user-attachments/assets/9920ae66-2093-49a6-9091-3fda688635e8" />
 
 
