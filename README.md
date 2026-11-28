@@ -1,4 +1,4 @@
-<h1 align="center">🐢 4EKUSHKA | Rookie </h1>
+<h1 align="center">🐢 4EKUSHKA | Vibe-code </h1>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust,js,nodejs,bash,git,github,vscode,windows,ps&theme=dark&perline=10" alt="Rust, JavaScript, Node.js, Bash, Git, GitHub, VS Code, Windows, Photoshop" />
